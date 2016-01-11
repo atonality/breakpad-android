@@ -26,6 +26,10 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+# Ignore build directories
+libs/
+obj/
+
 # Ignore other VCSs.
 .svn/
 
@@ -70,7 +74,4 @@ stamp-h1
 
 # Ignore directories gclient syncs.
 src/testing
-src/third_party/glog
-src/third_party/lss
-src/third_party/protobuf
 src/tools/gyp
